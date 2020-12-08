@@ -1,3 +1,14 @@
-Python Testing
+- :snake: In this repo, I'm studying all things testing with Python
 
-Unittest and Pytest Work here
+
+Other hobbies:
+- :book: LifelongLearning
+- :bike: Cycling
+
+- 📫 Find me here as well: 
+  - :handshake: [LinkedIn](https://www.linkedin.com/in/jeremy-keeton/)
+  - :bird: [Twitter](https://twitter.com/JeremyPK)
+  - :computer: [WordPress](https://jeremypk.net)
+
+
+
