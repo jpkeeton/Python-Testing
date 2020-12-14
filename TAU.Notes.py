@@ -2,14 +2,13 @@
 
 # Functions
 
-
 # def addStuff():
 #     # always indent the function body bits 4 spaces
 #     a = 10
 #     b = 333
 #     print(a+b)
 
-# # now call the function
+# # now call the function to start using it
 
 # addStuff()
 
@@ -30,43 +29,56 @@
 
 # args & kwargs (arguments & keyword arguments)
 
-def user_info(name, age, city):
-    # create a docstring
-    ''' this function prints print name, age and city'''
-    # now print out this sentence sticking the arguments into the curly braces
-    print("{} is {} years old and from {}".format(name, age, city))
+# def user_info(name, age, city):
+#     # create a docstring
+#     ''' this function prints print name, age and city'''
+#     # now print out this sentence sticking the arguments into the curly braces
+#     print("{} is {} years old and from {}".format(name, age, city))
 
-# you gotta match up the number of variables
-# Python is reading the arguments in order, in this case for the positional arguments
+# # you gotta match up the number of variables
+# # Python is reading the arguments in order, in this case for the positional arguments
+# print ('printing the regular args output')
 # user_info("Janet", 58, "Oklahoma City")
 
-# So let's use kwargs (keyword arguments)
-def user_info2(name="jojo", age=0, city='Scottsdale'):
-    print("{} is {} years old and from {}".format(name, age, city))
+# # So let's use kwargs (keyword arguments)
+# def user_info2(name="Args1", age=3, city='Scottsdale'):
+#     print("{} is {} years old and from {}".format(name, age, city))
 
-# so here you can just fill in the needed bits, any not included will just pull the defaults
-user_info2(age=56)
+# # # so here you can just fill in the needed bits, any not included will just pull the defaults
+# user_info2(name = 'Args2', age=33)
 
-# https://testautomationu.applitools.com/python-tutorial/chapter3.html
-# What about *args and **kwargs?
-# *args - allows for unlimited variables to be passed into a function w/o defining them ahead of time
-# ex of addition with the ability to pull in any number of args
-def addItUp(*args):
-    print(sum(args))
-addItUp(33, 33, 33, 33, 33)
+# So if you try args w/o populating all the elements you'll get a syntax error'
+# and with keyword arguments you don't need to follow the same positions when you call the function
 
-
-# **kwargs - allows for unlimited keywoard arguments to be passed into a function w/o defining them ahead of time
-def application(**kwargs):
-    print(**kwargs)
-application('nancy', 'bo')
+# # https://testautomationu.applitools.com/python-tutorial/chapter3.html
+# # What about *args and **kwargs?
+# # *args - allows for unlimited variables to be passed into a function w/o defining them ahead of time
+# # ex of addition with the ability to pull in any number of args
+# def addItUp(*args):
+#     print(sum(args))
+# addItUp(33, 33, 33, 33, 33)
 
 
-#intellisense got this going, interesting...
-combining arg try:
-    pass
-except expression as identifier:
-    pass
-else:
-    pass
+# # **kwargs - allows for unlimited keywoard arguments to be passed into a function w/o defining them ahead of time
+# def application(**kwargs):
+#     print(**kwargs)
+
+# application('nancy', 'bo')
+
+# https://testautomationu.applitools.com/python-tutorial/chapter3.html at 7:39
+# All 3 argument types can be used in a single function. 
+# They must be used in order: 
+# formal positional arguments,
+#  *args, 
+# **kwargs
+
+# ex. 
+def application2(fname, lname, email, company, *args, **kwargs):
+    print("{} {} works at {}. her. Their email is {}.".format(fname, lname, company, email))
+
+# so you'll need to have the args added to the function call here to avoid errors'
+application2('first', 'last', 'mo@mo.com', 'WFH Inc')
+
+# see also my Jupyter Notebook on this: http://localhost:8888/notebooks/Desktop/PythonProjects/FunctionsAndArgsAndKwargs.ipynb
+
 
