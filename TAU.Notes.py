@@ -82,3 +82,23 @@ application2('first', 'last', 'mo@mo.com', 'WFH Inc')
 # see also my Jupyter Notebook on this: http://localhost:8888/notebooks/Desktop/PythonProjects/FunctionsAndArgsAndKwargs.ipynb
 
 
+
+# Conditionals -> https://testautomationu.applitools.com/python-tutorial/chapter4.html
+# Comparison operaters refresher: <, >, ==, <=, !=
+# Booleans -> True, False
+
+print('Should be True')
+print(2==2)
+print('Should be True')
+print(3>1)
+print('Should be True')
+print(3!=1)
+print('Should be False') 
+print(3==1)
+
+
+# if - shows code that should run only if certain conditions are met 
+# elif - code that should run when conditions before are not met, but many conditions could possibly be met. Run in the order that it appears
+# else - closes out the above, comprises anything that the user might not do  
+# Drill thru these
+
