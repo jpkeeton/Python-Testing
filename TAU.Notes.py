@@ -87,18 +87,73 @@ application2('first', 'last', 'mo@mo.com', 'WFH Inc')
 # Comparison operaters refresher: <, >, ==, <=, !=
 # Booleans -> True, False
 
-print('Should be True')
-print(2==2)
-print('Should be True')
-print(3>1)
-print('Should be True')
-print(3!=1)
-print('Should be False') 
-print(3==1)
+# print('Should be True')
+# print(2==2)
+# print('Should be True')
+# print(3>1)
+# print('Should be True')
+# print(3!=1)
+# print('Should be False') 
+# print(3==1)
 
 
 # if - shows code that should run only if certain conditions are met 
 # elif - code that should run when conditions before are not met, but many conditions could possibly be met. Run in the order that it appears
 # else - closes out the above, comprises anything that the user might not do  
 # Drill thru these
+
+# design w order in mind, once the condition is met, none of the other conditions matter!
+
+# Addition
+def add():
+    a = float(input('enter a number to add: '))
+    b = float(input('enter another number to add: '))
+    # print('here is your sum: ' + ((float)(a+b))
+    print('Your sum is : ' + (str(a+b)))
+
+# Subtraction
+def subtraction():
+    a = float(input('enter a number to subtract: '))
+    b = float(input('enter another number to subtract: '))
+    print('Your difference is : ' + (str(a-b))) 
+
+# Multiplication
+def multiply():
+    a = float(input('enter a number to multiply: '))
+    b = float(input('enter another number to multiply: '))
+    print('Your product is : ' + (str(a*b))) 
+
+# Division
+def division():
+    a = float(input('enter a number to divide: '))
+    b = float(input('enter another number to divide: '))
+    print('Your division result is : ' + (str(a/b))) 
+
+# Now make a place to call the functions
+# so when you run this it's just going to go in order, calling each function
+# add()
+# subtraction()
+# multiply()
+# division()
+
+
+# now let's give the user choice
+# create a variable 
+operation = input('please enter +, -, *, /: ')
+
+if operation == '+':
+    add()
+elif operation == '-':
+    subtraction()
+elif operation =='*':
+    multiply()
+elif operation == '/':
+    division()
+else:
+    print('you have failed me for the last time!')
+
+
+# Finished that review
+# https://testautomationu.applitools.com/python-tutorial/chapter5.html
+# now loops again, going thru it quick
 
