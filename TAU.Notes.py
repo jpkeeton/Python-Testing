@@ -139,21 +139,83 @@ def division():
 
 # now let's give the user choice
 # create a variable 
-operation = input('please enter +, -, *, /: ')
+# operation = input('please enter +, -, *, /: ')
 
-if operation == '+':
-    add()
-elif operation == '-':
-    subtraction()
-elif operation =='*':
-    multiply()
-elif operation == '/':
-    division()
-else:
-    print('you have failed me for the last time!')
+# if operation == '+':
+#     add()
+# elif operation == '-':
+#     subtraction()
+# elif operation =='*':
+#     multiply()
+# elif operation == '/':
+#     division()
+# else:
+#     print('you have failed me for the last time!')
 
 
 # Finished that review
 # https://testautomationu.applitools.com/python-tutorial/chapter5.html
 # now loops again, going thru it quick
+
+# repeat same action a number of times
+
+# print('Which kind of bike would you like? ')
+# bikes = ['road', 'mountain', 'gravel', 'bmx']
+# for x in bikes:
+#         print(x)
+
+# fruits = ['apple', 'banana', 'orange', 'cherry', 'kiwi', 'starfruit']
+# for x in fruits:
+#     print('do you like {}?'.format(x))
+
+
+# for number in range(1, 333):
+#     print('Number {}'.format(number))
+
+# while loops
+# while xyz:
+#     do some stuff 
+#     usually include an incrementer
+#     _+
+
+
+# Loop controls include:
+# Break - 
+## end of loop, go to next statement in the program outside of the loop
+# Continue
+## skips current part of the loop, moves to the next part
+# Pass
+## skips any part of the loop where 'pass' appears, best used for testing code  
+
+
+
+
+list1 = ["abc", 34, True, 40, "male"]
+print(list1)
+
+
+# Classes
+# See also my Jupyter notebook - http://localhost:8888/notebooks/Desktop/PythonProjects/Classes.ipynb
+
+# https://testautomationu.applitools.com/python-tutorial/chapter8.html
+# Group data, variables/functions together
+
+# Class can be 1 to a file or multiple classs into one file
+# Class features:
+# inheritance, derived/child class can use attributes and methods from parent classmethod
+# multiple inheritence; inherit attributes from multiple classes
+
+# polymorphism - derived/child classes can override methods of parent class 
+
+# class variables - for use by all methods in the class 
+# instance variables - for use by the specific method in which the variable is declared/created
+
+# _init_ method - not required but sets defaults
+  
+# self - 
+
+# https://testautomationu.applitools.com/python-tutorial/chapter9.html
+# inheritance
+# multiple inheritance
+# polymorphism
 
