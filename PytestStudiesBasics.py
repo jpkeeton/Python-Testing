@@ -25,7 +25,7 @@
 # def test_SomeFunction():
 #     assert 1==1
 
-
+import unittest
 
 class TestSum(unittest.TestCase):
 # convert the test functions into methods by adding self as the first argument
@@ -35,5 +35,9 @@ class TestSum(unittest.TestCase):
     def test_sum_tuple(self):
         self.assertEqual(sum((1, 3, 4)), 6, "tuple result should be 6")
         
-if __name__ == '__main__':
-    unittest:main()
+# if __name__ == '__main__':
+#     unittest:main()
+
+
+
+

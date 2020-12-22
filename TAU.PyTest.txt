@@ -1,0 +1,2 @@
+# https://testautomationu.applitools.com/pytest-tutorial/
+# Code is here: https://github.com/AndyLPK247/tau-intro-to-pytest
