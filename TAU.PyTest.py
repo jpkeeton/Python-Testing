@@ -15,12 +15,12 @@
 # https://github.com/AndyLPK247/tau-intro-to-pytest/tree/example/1-first-test
 
 # here's a basic math operation
-def test_1Plus1():
-    assert 1 + 1 ==2
+# def test_1Plus1():
+#     assert 1 + 1 ==2
 
 
-def test_passing():
-    assert (1, 2, 3) == (1, 2, 3)
+# def test_passing():
+#     assert (1, 2, 3) == (1, 2, 3)
 
 # See my Onenotes on this
 # I can still run Pytest from the command line
@@ -28,7 +28,13 @@ def test_passing():
 # TODO https://marketplace.visualstudio.com/items?itemName=LittleFoxTeam.vscode-python-test-adapter
 # TODO Run these
 
-print('running tests')
-print('rebooting PyTestEfforts here')
+# print('running tests')
+# print('rebooting PyTestEfforts here')
 
-# TODO Create directories per TAU's first lesson
+# # TODO Create directories per TAU's first lesson
+
+
+
+
+def test_AssertTrue():
+    assert False
