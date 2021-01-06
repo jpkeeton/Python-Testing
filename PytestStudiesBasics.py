@@ -51,3 +51,41 @@ def test_AssertTrue():
     assert True
 
 
+
+# incrementer
+# so here is the function
+def increment(x):
+    return x + 1
+# and here is the test
+# the function adds 1, when you test with an argument of 3 does it equal 4?
+def test_increment_integer_3():
+    assert increment(3) == 4
+# same w another example
+def test_increment_integer_10():
+    assert increment(10) == 11
+
+
+
+# https://testautomationu.applitools.com/pytest-tutorial/chapter1.html
+# 'test_' is test indicator
+
+# 'python -m pytest' should find and run tests, it automatically adds current directory to sys.path
+# so all modules in the project can be discovered
+# . (dot) for each passing test
+# that's not working so.. will just use my usual 'pytest .\[filename].py' 
+
+# so from video 2 there is a 1+2 test we'll create
+# this is a failing test
+def test_one_plus_two():
+    a = 1
+    b = 2
+    # c = 0
+    c = 3
+    assert a + b == c # which will be wrong
+    # so change the C to 3
+
+
+
+
+
+

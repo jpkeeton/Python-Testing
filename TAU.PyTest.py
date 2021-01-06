@@ -5,9 +5,9 @@
 
 
 # Pytest is core test framework 
-# let's you write test cases as functions
-# executes tests and compiles pass/fail results
-# similar to other test frameworks, like Python's nunit and Java's junit, Javascript's Jasmine
+# Let's you write test cases as functions
+# Executes tests and compiles pass/fail results
+# Similar to other test frameworks, like Python's nunit and Java's junit, Javascript's Jasmine
 # But, has other cool stuff that we'll cover
 
 
