@@ -1,3 +1,8 @@
+
+
+# Have a jupyter notebook here also
+# http://localhost:8888/tree/Desktop/PythonProjects/Testing%20with%20Python/PytestStudies
+
 # Test Automation University Notes
 
 # Functions

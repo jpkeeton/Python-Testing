@@ -86,6 +86,16 @@ def test_one_plus_two():
 
 
 
+# another example from https://docs.pytest.org/en/stable/assert.html
+
+# create the function
+def f():
+    return 3
+
+# create the test function
+def test_fx():
+    assert f() == 4
+# now run the test
 
 
 
