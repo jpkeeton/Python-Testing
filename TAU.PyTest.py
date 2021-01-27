@@ -33,8 +33,3 @@
 
 # # TODO Create directories per TAU's first lesson
 
-
-
-
-def test_AssertTrue():
-    assert False
