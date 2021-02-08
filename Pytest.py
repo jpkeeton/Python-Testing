@@ -124,7 +124,7 @@ if __name__ == '__main__':
 # Parameterization
 # https://testautomationu.applitools.com/pytest-tutorial/chapter4.html
 
-## Multiplication ideas
+## Multiplication Ideas
 # 2 positive integers
 # identity: multiplying any number by 1
 # zero: multiplying any number by 0
@@ -136,7 +136,7 @@ if __name__ == '__main__':
 #  good test suite provides one test case per equivalence class
 
 # so you only need 1 test for identity, one test for floats, etc
-# So writing out all these indivudal tests becomes repetetive
+# So writing out all these individual tests becomes repetitive
 # here: https://testautomationu.applitools.com/pytest-tutorial/chapter4.html
 # def test_multiply_two_positive_ints():
 #     assert 2 * 3 == 6
